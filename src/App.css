@@ -53,12 +53,14 @@
 }
 
 .header-info h1 a {
+  position: relative;
   display: inline-flex;
   text-decoration: none;
   color:lightgray;
   font-size: 40px;
-  transition: 0.5s;
+  transition: 0.5s ease;
 }
+
 
 .header-info p {
   text-align: right;

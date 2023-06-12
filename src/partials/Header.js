@@ -20,9 +20,9 @@ function Header() {
 
                     <h1>
 
-                    REACT <a href="google.com"><i className="fa-solid fa-file-zipper"></i></a> 
-                    <a href="google.com"><i class="fa-brands fa-github"></i></a>
-                    <a href="google.com"><i class="fa-brands fa-linkedin"></i></a>
+                    REACT <a href="https://google.com" target="_blank" rel='noreferrer'><i className="fa-solid fa-file-zipper" ></i></a> 
+                    <a href="https://github.com/Player1mene" target="_blank" rel='noreferrer'><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gabriel-da-silva-ferreira-868704208/" target="_blank" rel='noreferrer'><i class="fa-brands fa-linkedin"></i></a>
                     </h1>
 
                     <h1>DEVELOPER</h1>
