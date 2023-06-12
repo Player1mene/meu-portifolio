@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Header {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(26,26,26,1) 24%, rgba(67,67,67,1) 43%, rgba(122,122,122,1) 59%, rgba(187,187,187,1) 76%, rgba(255,255,255,1) 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.dev-info {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.31416316526610644) 91%, rgba(0,0,0,0.5998774509803921) 100%, rgba(255,255,255,1) 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-info {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.header-info-dev {
+  padding: 15%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.title {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-info h1 {
+  font-size: 9.5vw;
+  font-weight: bold;
+  display: flex;
+  align-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
+  line-height: 100px;
+  margin: 0 !important;
+  color: whitesmoke;
+  padding: 0 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.header-info h1 a {
+  display: inline-flex;
+  text-decoration: none;
+  color:lightgray;
+  font-size: 40px;
+  transition: 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-info p {
+  text-align: right;
+  font-weight: bold;
+  color: whitesmoke;
+  margin: 0 !important;
+  padding: 0 4% !important;
 }
+
+
+.header-info span {
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 0 4.5% !important;
+}
+
+
+.header-info h1 a:hover {
+  margin-bottom: 7px;
+  color: whitesmoke;
+}
+
+
+
