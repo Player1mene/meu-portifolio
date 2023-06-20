@@ -308,12 +308,11 @@ body {
 
   
   .header-info {
-    height: 600px;
+    height: 100%;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    
   }
 
   .title {
