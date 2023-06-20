@@ -15,7 +15,7 @@ const  Header = () => {
               
               <div className="header-info-dev">
                 
-                <span>Olá, 👋 sou</span>
+                <span>OLÁ, 👋 SOU</span>
                 
                   <div className="title">
 
